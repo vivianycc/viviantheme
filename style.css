@@ -153,3 +153,22 @@ text-decoration: none;
 background: #AAA;
 color: #FFF
 }
+
+/* Main Column */
+
+.content {
+float: left;
+width: 100%;
+margin-top: 30px;
+}
+
+.article {
+width: 70%;
+float: left;
+}
+
+.sidebar {
+width: 30%;
+float: left;
+
+}
