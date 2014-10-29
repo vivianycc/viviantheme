@@ -1,0 +1,108 @@
+/*
+
+Theme Name: viviantheme
+Theme URI: http://vivianychen.com
+Description: An experiment
+Author: VivianYChen
+Author URI: http://vivianychen.com
+Version: 1.0
+Tags: white, two-columns
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+/*reset css*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans: 300,400);
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+body {
+line-height: 1;
+}
+
+ol, ul {
+list-style: none;
+}
+
+blockquote, q {
+quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+content: '';
+content: none;
+}
+
+table {
+border-collapse: collapse;
+border-spacing: 0;
+}
+
+/* add some basic style*/
+
+a {
+color: #22A2EB;
+text-decoration: none;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+ul {
+margin-left: 25px;
+}
+
+li {
+list-style: square;
+margin: 5px 0;
+color: #555;
+}
+
+h1 {
+font-size: 32px;
+color: #555;
+line-height: 1.8;
+font-weight: 300;
+}
+
+h2 {
+font-size: 26px;
+line-height: 1.48;
+}
+
+h3 {
+font-size: 20px;
+line-height: 1.48;
+color: #777;
+}
