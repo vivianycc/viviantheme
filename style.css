@@ -172,3 +172,47 @@ width: 30%;
 float: left;
 
 }
+
+/* Posts */
+
+.article-content {
+margin: 30px;
+padding: 20px;
+background: #FFF;
+}
+
+.article-content p {
+font: 15px/1.7 "Open Sans", sans-serif;
+color: #565656;
+margin: 15px 0;
+}
+
+.article-title {
+font-size: 32px;
+color: #555;
+line-height: 1.8;
+font-weight: 300;
+}
+
+.article-meta span {
+color: #888;
+font-size: 13px;
+margin-right: 7px;
+}
+
+.article-meta span a{
+color: #888;
+text-decoration: none;
+}
+
+.article-meta span a:hover {
+text-decoration: underline;
+}
+
+.clearfix {
+content: ".";
+ display: block;
+ height: 0;
+ clear: both;
+ visibility: hidden;
+}
