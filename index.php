@@ -37,6 +37,8 @@
 	<div class="clearfix"></div>
 	</article>
 	<?php endwhile; ?>
+	<!--加入頁碼-->
+	<?php wp_pagenavi(); ?>
 </div>
 
 <div class="sidebar">

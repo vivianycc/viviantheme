@@ -216,3 +216,33 @@ content: ".";
  clear: both;
  visibility: hidden;
 }
+
+/* PageNavi */
+
+.wp-pagenavi {
+margin: 30px;
+padding: 20px;
+background: #FFF;
+}
+
+.pages {
+color: #888;
+margin-right: 13px;
+}
+
+.page-numbers {
+padding: 5px 10px;
+color: #FFF;
+background: #888;
+text-decoration: none;
+}
+
+.page-numbers:hover {
+color: #FFF;
+background: #666;
+}
+
+.page-numbers.current {
+color: #FFF;
+background: #666;
+}
